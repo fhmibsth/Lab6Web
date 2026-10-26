@@ -1,0 +1,115 @@
+.highlight {
+    color: #173f75;
+    background-color: #e6f1ff;
+    border-left: 4px solid #3478c8;
+    padding: 12px;
+}
+.teks-besar {
+    font-size: 1.4rem;
+}
+
+.selesai span {
+    text-decoration: line-through;
+    color: #687386;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Tampilan Mini Project Workshop */
+.workshop {
+    width: 100%;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+}
+
+.workshop h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.workshop > p {
+    color: #555555;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-group small {
+    display: block;
+    margin-top: 6px;
+    color: #666666;
+}
+
+#ringkasanSesi {
+    font-size: 14px;
+}
+
+#pesanWorkshop {
+    font-weight: bold;
+}
+
+.tombol-group {
+    display: flex;
+    gap: 10px;
+}
+
+.tombol-group button {
+    flex: 1;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.tombol-group .tombol-reset {
+    background-color: #6b7280;
+}
+
+/* Tampilan untuk perangkat mobile */
+@media (max-width: 600px) {
+    .workshop {
+        max-width: 100%;
+        margin: 12px auto;
+        padding: 16px;
+    }
+
+    .workshop h1 {
+        font-size: 21px;
+    }
+
+    .tombol-group button {
+        padding: 12px 8px;
+    }
+}
+
+.sembunyi {
+    display: none;
+}
